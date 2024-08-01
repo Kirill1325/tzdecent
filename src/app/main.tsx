@@ -4,8 +4,8 @@ import { Provider } from 'react-redux'
 import { RouterProvider } from 'react-router-dom'
 import { store } from './store.ts'
 import { createBrowserRouter } from "react-router-dom";
-import { Home } from '../pages/Home/index.ts'
-import { CountryPage } from '../pages/CountryPage/UI/CountryPage.tsx'
+import { CountryPage } from '../pages/CountryPage'
+import { Home } from '../pages/Home'
 
 const router = createBrowserRouter([
   {
